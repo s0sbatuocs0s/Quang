@@ -8,16 +8,25 @@ namespace baithuchanhso1
 {
     class List<N>
     {
-        List<N> head;
+        Node<N> head;
 
-        internal List<N> Head
+        internal Node<N> Head
         {
             get { return head; }
             set { head = value; }
         }
-    }
-    public void addfist(Node<N> e){
-    e.next 
-    
+        Node<N> tail;
+
+        internal Node<N> Tail
+         {
+             get { return tail; }
+        set { tail = value; }
+           } 
+        public void addfist(Node<N> n)
+        {
+            n.Next = head;
+            this.head = n ;
+        }  
+    }        
 }
-}
+
