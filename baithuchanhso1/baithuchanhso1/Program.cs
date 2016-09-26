@@ -13,20 +13,5 @@ namespace baithuchanhso1
            
         }
     }
-    class Vidu<A>
-     {
-         A Node;
-         private A Data;
-
-         public A Data
-         {
-             get { return Data; }
-             set { Data = value; }
-         }
-         Vidu<A> next;
-          {
-             get { return Next; }
-             set { Next = value;}
-         }
-     }
+   
 }
