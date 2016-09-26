@@ -26,7 +26,26 @@ namespace baithuchanhso1
         {
             n.Next = head;
             this.head = n ;
-        }  
+        }
+        public List()
+        {
+            this.head = null; 
+        }
+        public void PrintSolution()
+        {
+            Node<N> point = head;
+            while (point.Next != null)
+            {
+                Console.WriteLine(point.Data);
+                point = point.Next;
+            }
+        }
+      
+
+        internal void addfist(Node<int> a)
+        {
+            throw new NotImplementedException();
+        }
     }        
 }
 

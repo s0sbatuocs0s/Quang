@@ -15,12 +15,21 @@ namespace baithuchanhso1
             get { return data; }
             set { data = value; }
         }
-        private Node<A> next;
 
+        private Node<A> next;
         internal Node<A> Next
         {
             get { return next; }
             set { next = value; }
         }
+        public Node(A x)
+        {
+  
+        this.data = x ;
+        this.Next = null;
+        }
+       
     }
+
+
 }
