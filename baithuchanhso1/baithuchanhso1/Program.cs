@@ -24,5 +24,9 @@ namespace baithuchanhso1
              set { Data = value; }
          }
          Vidu<A> next;
+          {
+             get { return Next; }
+             set { Next = value;}
+         }
      }
 }
